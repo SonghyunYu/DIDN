@@ -63,7 +63,7 @@ python gray_train.py --cuda --threads 8
 
 ## Weight ensemble
 For weight ensemble, train the model multiple times manually using --resume option,  
-and averaging weights using 'weight_ensemble_2.py'
+and averaging weights using 'weight_ensemble_2.py'.
 
   
 ## Contact
