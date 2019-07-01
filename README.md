@@ -23,7 +23,7 @@ For training, we used [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publication
 Please download the whole dataset for training the model.
 
 ## Test
-Download Pre-trained models:[[google drive]](https://drive.google.com/open?id=1dwc6T4Kk5tjwiSFuOiogoWts55GsbMeC)  
+Download Pre-trained models: [[google drive]](https://drive.google.com/open?id=1dwc6T4Kk5tjwiSFuOiogoWts55GsbMeC) and place them in the './checkpoint/pretrained_color' and './checkpoint/pretrained_gray' respectively   
 for grayscale images, gray_eval.py  
 for color images, color_eval.py  
 ```
