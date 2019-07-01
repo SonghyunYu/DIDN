@@ -14,7 +14,7 @@ If you use our work in your research or publication, please cite our paper:
 ## Environment  
   python 3.6   
   pytorch 1.0.0  
-  MATLAB (for pre-processing)  
+  MATLAB (to prepare data)  
 
 ## Prepare data
 You need to prepare data befor training / testing the model.    
