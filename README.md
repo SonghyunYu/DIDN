@@ -20,7 +20,7 @@ If you use our work in your research or publication, please cite our paper:
 You need to prepare data befor training / testing the model.    
 Please use matlab files in './data' folder.   
 For training, we used [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publications/Agustsson-CVPRW-2017.pdf) dataset, and only sample images are included in this project.  
-Please download the whole dataset for training the model.
+Please download the whole dataset for training the model. [[Div2K download page]](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 
 ## Test
 Download Pre-trained models: [[google drive]](https://drive.google.com/open?id=1dwc6T4Kk5tjwiSFuOiogoWts55GsbMeC)  
