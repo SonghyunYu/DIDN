@@ -1,5 +1,5 @@
 # DIDN
-Pytorch Implementation of "**Deep Iterative Down-Up CNN for Image Denoising**". [[PDF]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Yu_Deep_Iterative_Down-Up_CNN_for_Image_Denoising_CVPRW_2019_paper.pdf)
+Pytorch Implementation of "**Deep Iterative Down-Up CNN for Image Denoising**" [[PDF]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Yu_Deep_Iterative_Down-Up_CNN_for_Image_Denoising_CVPRW_2019_paper.pdf)
 
 Our method took **second** and **third** place at each track in [[NTIRE 2019 Challenge on Real Image Denoising]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Abdelhamed_NTIRE_2019_Challenge_on_Real_Image_Denoising_Methods_and_Results_CVPRW_2019_paper.pdf)
 
@@ -23,7 +23,8 @@ For training, we used [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publication
 Please download the whole dataset for training the model.
 
 ## Test
-Download Pre-trained models: [[google drive]](https://drive.google.com/open?id=1dwc6T4Kk5tjwiSFuOiogoWts55GsbMeC) and place them in the './checkpoint/pretrained_color' and './checkpoint/pretrained_gray' respectively   
+Download Pre-trained models: [[google drive]](https://drive.google.com/open?id=1dwc6T4Kk5tjwiSFuOiogoWts55GsbMeC)  
+and place them in the './checkpoint/pretrained_color' and './checkpoint/pretrained_gray' folders.
 for grayscale images, gray_eval.py  
 for color images, color_eval.py  
 ```
