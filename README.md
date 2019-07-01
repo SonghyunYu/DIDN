@@ -3,7 +3,7 @@ Pytorch Implementation of "**Deep Iterative Down-Up CNN for Image Denoising**". 
 
 Our method took **second** and **third** place at each track in [[NTIRE 2019 Challenge on Real Image Denoising]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Abdelhamed_NTIRE_2019_Challenge_on_Real_Image_Denoising_Methods_and_Results_CVPRW_2019_paper.pdf)
 
-If you use our work in your research or publication, please cite our work:
+If you use our work in your research or publication, please cite our paper:
 ```
 @inproceedings{yu2019deep,
   title={Deep iterative down-up CNN for image denoising},
