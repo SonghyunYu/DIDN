@@ -11,7 +11,7 @@ import imageio
 parser = argparse.ArgumentParser(description="PyTorch DIDN  Eval")
 parser.add_argument("--cuda", action="store_true", help="use cuda?")
 parser.add_argument("--model", default="./checkpoint/pretrained_gray/gray_model.pth", type=str, help="model path")
-parser.add_argument("--output_path", default="./result/result_images/", type=str, help="model path")
+parser.add_argument("--output_path", default="./result/result_images/", type=str, help="output path")
 parser.add_argument("--self_ensemble", action="store_true", help="Use self ensemble?")
 parser.add_argument("--gpus", default="0", type=str, help="gpu ids (default: 0)")
 
