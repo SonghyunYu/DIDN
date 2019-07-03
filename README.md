@@ -17,7 +17,7 @@ If you use our work in your research or publication, please cite our paper:
   MATLAB (to prepare data)  
 
 ## Prepare data
-You need to prepare data befor training / testing the model.    
+You need to prepare data before training or testing the model.    
 Please use matlab files in './data' folder.   
 For training, we used [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publications/Agustsson-CVPRW-2017.pdf) dataset, and only sample images are included in this project.  
 Please download the whole dataset for training the model. [[DIV2K download page]](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
