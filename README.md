@@ -11,6 +11,9 @@ If you use our work in your research or publication, please cite our paper:
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
   year={2019}
 ```
+## Related Work
+Other method of our team "Densely Connected Hierarchical Network for Image Denoising" [[PDF]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Park_Densely_Connected_Hierarchical_Network_for_Image_Denoising_CVPRW_2019_paper.pdf), [[code]](https://github.com/BumjunPark/DHDN)
+
 ## Environment  
   python 3.6   
   pytorch 1.0.0  
