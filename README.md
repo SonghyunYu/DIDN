@@ -26,7 +26,7 @@ For training, we used [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publication
 Please download the whole dataset for training the model. [[DIV2K download page]](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 
 ## Test
-Download Pre-trained models: [[google drive]](https://drive.google.com/open?id=1dwc6T4Kk5tjwiSFuOiogoWts55GsbMeC)  
+Download Pre-trained models: [[download]](https://drive.google.com/open?id=1dwc6T4Kk5tjwiSFuOiogoWts55GsbMeC)  
 and place them in the './checkpoint/pretrained_color' and './checkpoint/pretrained_gray' folders.  
 for grayscale images, gray_eval.py  
 for color images, color_eval.py  
@@ -44,6 +44,7 @@ Example:
 ```
 python gray_eval.py --cuda --self_ensemble
 ```
+If you are interested in the ntire challenge results, you can download the pre-trained models [[here]](https://drive.google.com/open?id=1jWi8fqMpL8FYW6KF_mqy4J0LN4N5U6Ml)
 
 ## Training
 ```
