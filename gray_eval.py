@@ -7,6 +7,7 @@ import scipy.io as sio
 from matplotlib import pyplot as plt
 import torch.nn as nn
 import imageio
+from gray_model import _NetG
 
 parser = argparse.ArgumentParser(description="PyTorch DIDN  Eval")
 parser.add_argument("--cuda", action="store_true", help="use cuda?")
@@ -32,7 +33,9 @@ if cuda:
     if not torch.cuda.is_available():
         raise Exception("No GPU found or Wrong gpu id, please run without --cuda")
 
-model = torch.load(opt.model, map_location=lambda storage, loc: storage)["model"]
+model = _NetG()
+checkpoint = torch.load(opt.model, map_location=lambda storage, loc: storage)
+model.load_state_dict(checkpoint['model'].state_dict())
 
 with torch.no_grad():
     model.eval()
